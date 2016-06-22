@@ -473,6 +473,13 @@ input,button,select,textarea{
 	}
 }
 @media only screen and (max-width: 580px) {
+	.slide_btn img{
+		width:24px;
+		height: auto;
+	}
+	.qg-index-txt{
+		padding-top: 10px;
+	}
 	.qg-index-txt p,.qg-index-txt p.en{
 		padding: 0 12px;
 		text-align: left;
