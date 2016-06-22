@@ -1,0 +1,391 @@
+<!--
+	作者：wan
+	时间：2016-04-07
+	描述：测试bootstrap
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>bootstrap测试</title>
+		<meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1" /><!--设置viewport，适应移动设备的显示宽度-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	</head>
+	<body onload="resize();" onresize="resize()">
+		<div class="g-top">
+			<div class="main clearfix">
+				<div class="g-logo"><img src="img/logo.png" alt="国控资金"/></div>
+				<div class="g-menu">
+					<div class="btn">
+						展开
+					</div>
+					<ul class="nav nav-pills">
+					  <li role="presentation" ><a href="#"><h2>首页</h2><span>HOME</span></a></li>
+					  <li role="presentation"><a href="#"><h2>关于我们</h2><span>ABOUTS</span></a></li>
+					  <li role="presentation"><a href="#"><h2>新闻中心</h2><span>NEWS</span></a></li>
+					  <li role="presentation"><a href="#"><h2>业务领域</h2><span>BUSINESS</span></a></li>
+					  <li role="presentation"><a href="#"><h2>社会责任</h2><span>RESPONSIBILITY</span></a></li>
+					  <li role="presentation"><a href="#"><h2>人力资源</h2><span>RESOURCES</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="qg-content">
+			<!--  * 轮播图  S*  -->
+		    <div id="imageShow">
+		        <ul class="imagebg">
+		            <li class="bannerbg">
+		                <div class="bannerbg_main" >
+		                    <a><img src="img/banner1.jpg" alt="国控投资基金"/></a>
+		                </div>
+		            </li>
+		            <li class="bannerbg">
+		                <div class="bannerbg_main">
+		                    <a><img src="img/banner1.jpg" alt="国控投资基金"/></a>
+		                </div>
+		            </li>
+		
+		        </ul>
+		        <!-- 圆点  S-->
+		        <div id="scroll_dot">
+		            <span class="sel" class=""></span>
+		            <span class=""></span>
+		        </div>
+		        <!-- 圆点  E-->
+		
+		        <!-- 左右切换箭头 S-->
+		        <div class="qg-arrow-box clearfix">
+		            <span class="slide_prev fl slide_btn"><img src="img/left.png"/></span>
+		            <span class="slide_next fr slide_btn"><img src="img/right.png"/></span>
+		        </div>
+		        <!-- 左右切换箭头 E-->
+		    </div>
+		    <!--  * 轮播图  E*  -->
+		    <!--文本说明块 S-->
+		    <div class="qg-index-txt">
+		        <p>
+		            深圳国控股权投资基金管理有限公司依托强大的金融背景和行业资源，引进国外先进的信用管理理念，结合本土市场环境，<br>
+		            为广大客户提供资产配置、金融投资、税务、不动产投资顾问等服务，并通过严格的风险控制流程和机制，<br>
+		            筛选出优质理财产品，帮助客户实现稳定、安全的财富增值。<br>
+		        </p>
+		        <p class="en">
+		            Shenzhen countries control investment fund management co., LTD., relying on the strong financial background and industry resources, introduce the foreign<br/>
+		            advanced credit management concept, combined with the local market environment,<br/>
+		            For the overwhelming majority of customers with asset allocation, financial investment, tax, real estate investment advisory services,<br/>
+		            and through the strict risk control process and mechanism,<br/>
+		            Selected high quality products to help customers achieve stability,<br/>
+		            security of wealth.
+		        </p>
+		        <div class="product" ><a href="business.html">进入产品中心</a></div>
+		    </div>
+		    <!--文本说明块 E-->
+		    <!--slider滑动块 S-->
+    <div class="qg-slider">
+        <div id="slider">
+
+            <img class="scrollButtons left" src="img/left.png">
+
+            <div  class="scroll">
+
+                <div class="scrollContainer" >
+
+                    <div class="panelp" id="panel_1" >
+                        <a class="inside" href="business.html">
+                            <img src="img/js01.jpg" alt="嘉实享乐计划">
+                            <h2 >嘉实乐享计划-90日</h2>
+                            <p>预期年化收益率：17%</p>
+                            <p>理财周期：90天</p>
+                        </a>
+                    </div>
+
+                    <div class="panelp" id="panel_2" >
+                        <a class="inside" href="business.html">
+                            <img src="img/js02.jpg" alt="嘉实享乐计划">
+                            <h2 >嘉实乐享计划-180日</h2>
+                            <p>预期年化收益率：19%</p>
+                            <p>理财周期：180天</p>
+                        </a>
+                    </div>
+
+                    <div class="panelp" id="panel_3" >
+                        <a class="inside" href="business.html">
+                            <img src="img/js03.jpg" alt="嘉实享乐计划" >
+                            <h2 >嘉实乐享计划-365日</h2>
+                            <p>嘉实乐享计划-365日</p>
+                            <p>理财周期：365天</p>
+                        </a>
+                    </div>
+                    
+                    <div class="panelp" id="panel_1" >
+                        <a class="inside" href="business.html">
+                            <img src="img/js01.jpg" alt="嘉实享乐计划">
+                            <h2 >嘉实乐享计划-90日</h2>
+                            <p>预期年化收益率：17%</p>
+                            <p>理财周期：90天</p>
+                        </a>
+                    </div>
+                    
+                     <div class="panelp" id="panel_1" >
+                        <a class="inside" href="business.html">
+                            <img src="img/js01.jpg" alt="嘉实享乐计划">
+                            <h2 >嘉实乐享计划-90日</h2>
+                            <p>预期年化收益率：17%</p>
+                            <p>理财周期：90天</p>
+                        </a>
+                    </div>
+                     <div class="panelp" id="panel_1" >
+                        <a class="inside" href="business.html">
+                            <img src="img/js01.jpg" alt="嘉实享乐计划">
+                            <h2 >嘉实乐享计划-90日</h2>
+                            <p>预期年化收益率：17%</p>
+                            <p>理财周期：90天</p>
+                        </a>
+                    </div>
+                     <div class="panelp" id="panel_1" >
+                        <a class="inside" href="business.html">
+                            <img src="img/js01.jpg" alt="嘉实享乐计划">
+                            <h2 >嘉实乐享计划-90日</h2>
+                            <p>预期年化收益率：17%</p>
+                            <p>理财周期：90天</p>
+                        </a>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <img class="scrollButtons right" src="img/right.png">
+
+        </div>
+        
+        
+    <!--slider滑动块 E-->
+    
+		    <!--文本说明块 S-->
+		    <div class="qg-index-txt">
+		        <p>
+		            深圳国控股权投资基金管理有限公司定位于中国新一代的综合金融服务提供商，是拥有资产管理能力的，<br/>
+		            进步的独立财富管理机构，是中国独立财富管理行业的拓荒牛。
+		        </p>
+		        <p class="en">
+		            Controlling investment fund management co., LTD locate in shenzhen countries a new generation of integrated financial services provider,<br/>
+		            is has the asset management capabilities,The progress of independent wealth managers,<br/>
+		            is the bravebull independent wealth management industry in China.<br/>
+		        </p>
+		        <a class="img-box" href="business.html"><img src="img/list.jpg" alt="国控投资基金"/></a>
+		    </div>
+		    <!--文本说明块 E-->
+		</div>
+		
+		
+		<script type="text/javascript">
+		//幻灯片
+    $(function(){
+        var p = 0;
+        var len = $("#imageShow li").length;
+
+        $("#imageShow li").css({"z-index":1,"opacity":0});
+
+        $("#imageShow li").eq(0).css({"z-index":100,"opacity":1});
+        $("#scroll_dot span").click(
+                function(){
+                    play($("#scroll_dot span").index(this));
+                });
+
+        function play(p){
+            $("#scroll_dot span").eq(p).addClass("sel").siblings().removeClass("sel");
+            $("#imageShow li").eq(p).animate({'opacity':1},800).css({'z-index':100}).siblings().animate({'opacity':0},800).css({'z-index':1});
+        }
+
+        $("#imageShow .slide_prev").click(function() {
+            p -= 1;
+            if(p == -1) {p = len - 1;}
+            showPics(p);
+        });
+        $("#imageShow .slide_next").click(function() {
+            p += 1;
+            if(p == len) {p = 0;}
+            showPics(p);
+        });
+
+        function showPics(p) {
+            $("#scroll_dot span").removeClass("sel").eq(p).addClass("sel");
+            $("#imageShow li").stop(true,false).eq(p).animate({'opacity':1},800).css({'z-index':100}).siblings().animate({'opacity':0},800).css({'z-index':1});
+        }
+
+        function autoplay(){
+            p = (p>$("#scroll_dot span").length-2)?0:(p+1);
+            play(p);
+        }
+        var auto = setInterval(function(){ autoplay(p)},8000);
+        // $("#imageShow").mouseover(function(){clearInterval(auto);})
+        //  $("#imageShow").mouseout (function(){auto = setInterval(function(){ autoplay(p)},5000);})
+        
+       
+    })
+      function resize(){
+        	var height=$('.bannerbg_main img').height();
+           $('#imageShow .imagebg li,#imageShow .imagebg,#imageShow').height(height);
+        }
+    
+   
+  	  $('.g-menu .btn').click(function(){
+			if($('.nav-pills').height()==0){
+			   $('.nav-pills').css('height','auto').show();
+			}else{
+				$('.nav-pills').css('height','0');
+			}
+		});
+       
+        $(function() {
+        var totalPanels = $(".scrollContainer").children().size();
+        var regWidth = $(".panelp").css("width");
+        var regImgWidth = $(".panelp img").css("width");
+        var regTitleSize = $(".panelp h2").css("font-size");
+        var regParSize = $(".panelp p").css("font-size");
+        var width= $('.inside img').width();
+        var widthp=width+20;
+        var movingDistance = widthp;file:///F:/%E5%88%86%E7%B1%BB%E6%96%87%E4%BB%B6/%E5%AD%A6%E4%B9%A0%E5%85%85%E7%94%B5/bootstrap/%E7%94%A8%E4%BA%8E%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E7%9A%84%20Bootstrap/bootstrap-3.3.5-dist/img/right.png
+        var curWidth = widthp;
+        var curImgWidth =width;
+        var curTitleSize = $('.inside h2').css('font-size');
+        var curParSize = $('.inside p').css('font-size');
+        var $panels = $('#slider .scrollContainer > div');
+        var $container = $('#slider .scrollContainer');
+        $panels.css({
+            'float': 'left',
+            'position': 'relative'
+        });
+        $("#slider").data("currentlyMoving", false);
+        $container.css('width', ($panels[0].offsetWidth * $panels.length) ).css('left', "0px");
+        var scroll = $('#slider .scroll').css('overflow', 'hidden');
+
+        function returnToNormal(element) {
+            $(element).animate({
+                width: regWidth
+            }).find("img").animate({
+                width: regImgWidth
+            }).end().find("h2").animate({
+                fontSize: regTitleSize
+            }).end().find("p").animate({
+                fontSize: regParSize
+            });
+        };
+
+        function growBigger(element) {
+            $(element).animate({
+                width: curWidth
+            }).find("img").animate({
+                width: curImgWidth
+            }).end().find("h2").animate({
+                fontSize: curTitleSize
+            }).end().find("p").animate({
+                fontSize: curParSize
+            });
+        }
+
+        function change(direction) {
+            if ((direction && !(curPanel < totalPanels)) || (!direction && (curPanel <= 1))) {
+                return false;
+            }
+            if (($("#slider").data("currentlyMoving") == false)) {
+                $("#slider").data("currentlyMoving", true);
+                var next = direction ? curPanel + 1 : curPanel - 1;
+                var leftValue = $(".scrollContainer").css("left");
+                var movement = direction ? parseFloat(leftValue, 10) - movingDistance : parseFloat(leftValue, 10) + movingDistance;
+                $(".scrollContainer").stop().animate({
+                    "left": movement
+                }, function() {
+                    $("#slider").data("currentlyMoving", false);
+                });
+                returnToNormal("#panel_" + curPanel);
+                growBigger("#panel_" + next);
+                curPanel = next;
+                $("#panel_" + (curPanel + 1)).unbind();
+                $("#panel_" + (curPanel + 1)).click(function() {
+                    change(true);
+                });
+                $("#panel_" + (curPanel - 1)).unbind();
+                $("#panel_" + (curPanel - 1)).click(function() {
+                    change(false);
+                });
+                $("#panel_" + curPanel).unbind();
+            }
+        }
+        growBigger("#panel_3");
+        var curPanel = 3;
+        $("#panel_" + (curPanel + 1)).click(function() {
+            change(true);
+        });
+        $("#panel_" + (curPanel - 1)).click(function() {
+            change(false);
+        });
+        $(".right").click(function() {
+            change(true);
+        });
+        $(".left").click(function() {
+            change(false);
+        });
+
+    });
+
+    var len=$('.panelp').length;
+    var width= $('.inside img').width();
+    var widthp=width+20;
+    if( len<=3){
+        $('.scrollButtons').hide();
+    }
+    else{
+        if($('.scrollContainer').position().left==0){
+            $('.left').hide();
+        }
+        
+       
+    $('.right').click(function(){
+        if($('.scrollContainer').position().left==0){
+            $('.left').hide();
+        }
+        if($('.scrollContainer').position().left!=-widthp){
+            $('.left').show();
+        }
+
+        if($('.scrollContainer').position().left<=-widthp*(len-4)){
+            $('.right').hide();
+        }else{
+            $('.right').show();
+        }
+    });
+    $('.left').click(function(){
+
+        if($('.scrollContainer').position().left==-widthp){
+            $('.left').hide();
+        }
+        if($('.scrollContainer').position().left!=-widthp){
+            $('.left').show();
+        }
+       
+       if($('.scrollContainer').position().left<=-widthp*(len-2)){
+            $('.right').hide();
+        }else{
+            $('.right').show();
+        }
+    });
+    
+    $(window).load(function(){
+    	if($(this).width()<=580){
+    		/*var $clones=$('.scrollContainer div.panelp').lastChild().clone(false);*/
+    		/*$('.scrollContainer').append("<div class='panelp'></div>");*/
+    		$('.scrollContainer').position().left=160;
+    	}
+    });
+ }
+					
+		</script>
+   </body>
+</html>
